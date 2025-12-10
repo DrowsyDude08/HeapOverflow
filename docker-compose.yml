@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vulnerable-app:
+    build: .
+    container_name: heap-overflow-vulnerable
+    ports:
+      - "1337:1337"
+    environment:
+      - FLAG=practice{Heap_Overflow_Exploitation_Success!}
+    restart: unless-stopped
+

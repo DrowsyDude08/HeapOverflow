@@ -1,0 +1,26 @@
+# Скомпилированные файлы
+vulnerable_heap_overflow
+*.o
+*.exe
+*.out
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Флаги (не коммитим флаги в репозиторий)
+flag.txt
+
